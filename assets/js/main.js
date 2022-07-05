@@ -1,37 +1,29 @@
 (function ($) {
 	$(document).ready(function () {
 		/* owlcarousel */
-		if ($(".owl-carousel").length) {
-			$(".owl-carousel").each(function () {
-				// var owl = $(".owl-carousel");
+		if ($(".banner-carousel").length) {
+			$(".banner-carousel").each(function () {
+				// var owl = $(".home-carousel");
 				$(this).owlCarousel({
-					margin: 0,
-					autoplayTimeout: $(this).data("autotime"),
-					smartSpeed: $(this).data("speed"),
-					autoHeight: $(this).data("autoheight"),
-					autoplay: $(this).data("autoplay"),
-					items: $(this).data("carousel-items"),
-					nav: $(this).data("nav"),
-					dots: $(this).data("dots"),
-					center: $(this).data("center"),
-					loop: $(this).data("loop"),
+					loop:true,
+					margin:10,
+					nav: true,
+					items: 1,
+					
+				});
+			});
+		}
 
-					responsive: {
-						0: {
-							items: $(this).data("mobile"),
-							autoplay: true
-						},
-						768: {
-							items: $(this).data("tablet"),
-							autoplay: true
-						},
-						992: {
-							items: $(this).data("desktop-small"),
-						},
-						1680: {
-							items: $(this).data("desktop"),
-						},
-					},
+		//home firm
+		if ($(".firm-carousel").length) {
+			$(".firm-carousel").each(function () {
+				// var owl = $(".home-carousel");
+				$(this).owlCarousel({
+					loop:true,
+					margin:10,
+					nav: true,
+					items: 5,
+					
 				});
 			});
 		}
