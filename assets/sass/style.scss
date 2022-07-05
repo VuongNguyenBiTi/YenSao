@@ -1,6 +1,6 @@
-$main-color: #04664D;
-$hover-color: #50ffa7;
-$sub-color: #0AB155;
+$main-color: #345ea8;
+$hover-color: #4ab4de;
+$sub-color: #eedbcc;
 $lightgray-color: #F6F6F6;
 $text-color: #3C3C3C;
 $text-dark-color: #001A13;
@@ -10,6 +10,7 @@ $text-dark-color: #001A13;
     font-family: Helvetica;
     src: url('./helveticaneue.ttf');
 }
+
 
 .main-co {
     color: $main-color  !important;
@@ -107,42 +108,42 @@ body {
     font-weight: 600 !important;
 }
 
-.btn-cus {
-    display: flex;
-    align-items: center;
-    color: $sub-color;
-    border-color: $sub-color;
-    border-radius: 60px;
-    width: fit-content;
-    padding: 12px 48px;
+// .btn-cus {
+//     display: flex;
+//     align-items: center;
+//     color: $sub-color;
+//     border-color: $sub-color;
+//     border-radius: 60px;
+//     width: fit-content;
+//     padding: 12px 48px;
 
-    &:hover {
-        background-color: $sub-color;
-        color: #fff;
-    }
+//     &:hover {
+//         background-color: $sub-color;
+//         color: #fff;
+//     }
 
-    &--white {
-        color: $sub-color;
-        background-color: white;
-        border: unset;
-    }
+//     &--white {
+//         color: $sub-color;
+//         background-color: white;
+//         border: unset;
+//     }
 
-    &--green {
-        border: unset;
-        color: #fff;
-        background-color: $sub-color;
+//     &--green {
+//         border: unset;
+//         color: #fff;
+//         background-color: $sub-color;
 
-        &:hover {
-            background-color: #fff;
-            color: $sub-color;
-        }
-    }
+//         &:hover {
+//             background-color: #fff;
+//             color: $sub-color;
+//         }
+//     }
 
-    @media (max-width: 991.98px) {
-        padding: 8px 24px;
-    }
+//     @media (max-width: 991.98px) {
+//         padding: 8px 24px;
+//     }
 
-}
+// }
 
 .owl-nav {
     display: flex;
@@ -468,21 +469,62 @@ body {
     }
 }
 
-.mega-current-menu-item>a.mega-menu-link {
-    // background-color: red  ;
-    position: relative !important;
+// .mega-current-menu-item>a.mega-menu-link {
+//     // background-color: red  ;
+//     position: relative !important;
 
-    &::before {
-        content: '' !important;
-        position: absolute !important;
-        width: 40% !important;
-        height: 1px !important;
-        background-color: #fff !important;
-        transform: translateX(-50%) !important;
-        bottom: 8px !important;
-        left: 50% !important;
+//     &::before {
+//         content: '' !important;
+//         position: absolute !important;
+//         width: 40% !important;
+//         height: 1px !important;
+//         background-color: #fff !important;
+//         transform: translateX(-50%) !important;
+//         bottom: 8px !important;
+//         left: 50% !important;
 
+//     }
+// }
+
+.btn-cus {
+    padding: 4px 12px;
+    border-radius: 0;
+    border-color: $sub-color;
+    color: $sub-color  !important;
+
+    &:hover {
+        background-color: $sub-color;
+        color: #fff !important;
     }
+
+    &--primary {
+        border-color: $main-color;
+        color: $main-color  !important;
+
+        &:hover {
+            background-color: $main-color;
+            color: #fff;
+        }
+    }
+
+    &--primary2 {
+        background-color: $main-color;
+        color: #fff !important;
+        border: none;
+    }
+}
+
+.btn-feedback {
+    position: fixed;
+    right: -10px;
+    top: 60%;
+    transform: rotate(-90deg);
+}
+
+.form-cus {
+    padding: 4px 12px;
+    border-radius: 0;
+
 }
 
 

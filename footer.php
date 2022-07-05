@@ -1,5 +1,87 @@
+        <!-- fixed feedback -->
+        <button class="btn-feedback btn btn-cus btn-cus--primary2" aria-label="Give feedback on the Financial Times website" data-trackable="feedback-start">
+            <span>Feedback</span>
+        </button>
         <!-- Begin Footer -->
         <footer class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <h5 class="footer-top-title">
+                                Support
+                            </h5>
+                            <ul class="footer-top-menu-items">
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2">
+                            <h5 class="footer-top-title">
+                                Legal & Privacy
+                            </h5>
+                            <ul class="footer-top-menu-items">
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2">
+                            <h5 class="footer-top-title">
+                                Services
+                            </h5>
+                            <ul class="footer-top-menu-items">
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2">
+                            <h5 class="footer-top-title">
+                                Tools
+                            </h5>
+                            <ul class="footer-top-menu-items">
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2">
+                            <h5 class="footer-top-title">
+                                Community & Events
+                            </h5>
+                            <ul class="footer-top-menu-items">
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2">
+                            <h5 class="footer-top-title">
+                                More
+                            </h5>
+                            <ul class="footer-top-menu-items">
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                                <li><a href="#">View site tip</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+            </div>
         </footer>
         <!-- End Footer -->
 

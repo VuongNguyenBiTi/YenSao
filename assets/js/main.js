@@ -60,4 +60,13 @@
 		}
 		this.oldScroll = this.scrollY;
 	}
+
+	// toggle search bar
+	$('#search-btn').click(() => {
+		$('.header-search').fadeToggle();
+	})
+	$('#close-search-bar').click(() => {
+		$('.header-search').fadeOut();
+	})
+
 })(jQuery);
