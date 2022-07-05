@@ -1,94 +1,41 @@
 .footer {
-    &-main {
-        padding: 30px 0;
-        // background: #f4f7f7;
-        background-image: url("../images/Footer-bg.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
 
-        * {
-            color: #fff !important;
-        }
+    color: #fff;
 
-        .footer-logo {
-            padding-bottom: 24px;
-            border-bottom: 1px solid #fff;
-            margin-bottom: 48px;
+    a {
+        color: #a8aaad;
 
-            img {
-                width: 320px;
-                display: block;
-                margin: 0 auto;
-            }
+        &:hover {
+            color: #fff;
         }
     }
 
-    &-item {
-        img {
-            height: 120px;
-            object-fit: contain;
-            object-position: left;
-        }
+    &-top {
+        background-color: #262a33;
+        padding: 48px;
 
-        h3 {
-            color: $main-color;
-            font-size: 20px;
-            font-weight: 600;
-            text-transform: uppercase;
+        &-title {
             margin-bottom: 24px;
+            // text-align: center;
+            // font-weight: 600;
         }
 
-        h4 {
-            color: $sub-color;
-            font-size: 16px;
-            font-weight: 600;
-        }
+        &-menu-items {
+            list-style-type: none;
+            padding-left: 0;
 
-        ul>li {
-            line-height: 28px;
-
-            >a {
-                color: #000;
-
-                &:hover {
-                    color: $sub-color;
-                }
+            li {
+                margin-bottom: 16px;
             }
-
-            // &:before {
-            //     content: "\f054";
-            //     font-family: "Font Awesome 5 Pro";
-            //     font-size: 12px;
-            //     margin-right: 5px;
-            // }
         }
     }
 
-    &-copyright {
-        background: $text-dark-color;
-        color: #fff;
-        padding: 8px 0;
-
-        span {
-            color: $main-color;
-
-            a {
-                color: $main-color;
-            }
-        }
+    &-bottom {
+        height: 50px;
+        background-color: black;
     }
 }
 
 @media (max-width: 991px) {
-    .footer {
-        &-main {
-            padding: 30px 0 10px;
-
-
-        }
-
-        &-item {
-            margin-bottom: 20px;
-        }
-    }
+    .footer {}
 }
