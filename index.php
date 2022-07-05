@@ -2,7 +2,7 @@
 
 <?php get_header(); ?>
 <main class="home">
-    <section class="home-banner">
+    <section class="mt-4 home-banner">
         <div class="container">
             <div class="banner__left">
                 <marquee class="marquee">This text will scroll from right to left</marquee>
